@@ -167,3 +167,37 @@ Learned react through mentorship
 ### Subvert type system
 - can create aliases; can use any type
 - can slowly replace that interface
+
+# Track B: I like my tests, i like i like my friends, flake-free and reliable with Amir Rustamzadeh
+
+
+end to end testing
+camping trips - friends tend to be unreliable
+end to end testing can be reliable if done properly
+
+### renaissance of the web
+- complexity has moved to front end now
+- sending large javascript applicatiosn down the wire
+- testing them end to end has not changed since
+- 2006 (selenium) 
+
+### jsdom or dom emulation
+- jsdom not a real browser
+- primary way to use e2e testing
+
+### don't let users be first e2e test
+- cost time and money
+- otherwise, use a crash reporter
+- should test exact experience of user
+
+### Cypress.io
+- easy way to test to test cypress
+- electron application
+- can be launched with npx (it is a binary)
+- can have access to devtools after launch
+- can inspect requests
+- easy to debug
+
+### cypress commands
+- headless `cypress run --record` video recording with test run
+- cypress open 

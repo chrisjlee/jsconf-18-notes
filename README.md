@@ -71,5 +71,14 @@ Learned react through mentorship
 - Grant money as option
 - Grant money takes a lot of time
 
+## Resources
+- Users might only have phones
+- Must consider audience some 
+
+## How to start
+- Join a local brigade
+- Convince your workplace
+
+
 
 

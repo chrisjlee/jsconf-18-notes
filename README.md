@@ -100,6 +100,26 @@ Learned react through mentorship
 - couldn't get to work because can't drive in california
 - had to look for places with public transportation
 
+## pixel perfect
+- chrome extensions can set an image and lay on top of your website
+- compare final website to design
+- zoom tool in macbook to help with compare with pixel perfect extensions
+
+## Themes
+- Created a "City Lights UI" theme in Atom
+- not created in vscode yet
+
+## Work issues with others
+- because of near-sightedness
+- would require others to change their settings
+- there is a better way!
+- vs live share / teletype
+
+## Resources
+- Udacity has a great course on accessibility
+- created by google
+- couple chapters or couple of hours
+
 
 
 

@@ -1,7 +1,6 @@
 # JSConf '18 Notes
 
-## Track A: Learning through Art: An Introduction to VR
-### with Billy Roh
+## Track A: Learning through Art: An Introduction to VR with Billy Roh
 
 Take inspiration from art specifically the [obliteration room](https://play.qagoma.qld.gov.au/looknowseeforever/works/obliteration_room/)
 
@@ -10,14 +9,13 @@ Poly [poly.google.com](poly.google.com)
 a-frame has a asset management system
 create id for each item
 
-### A-Frame
+A-Frame
 - Mozilla framework
 - uses semantic syntax
 - <a-entity> is a generic container
 - can create games
 
-### Lighting
-
+Lighting
 - Spotlight
 - Directional (like the sun)
 - Hemisphere (ambient)
@@ -32,29 +30,28 @@ Using a single light will turn off other lights
 
 Create stickers to add to scene
 
-## Physics engine
+Physics engine
 A frame provides engine to 
 - Bodies
   - Dynamic body can move
   - static body will be stick
 
-### collision event listeners
+Collision event listeners
 - can turn them into a static body after it is collide with object
 
 Each of the stickers land ackwardly because the physics engine assumes its a box
 - for optimization it's a box
 
-### moving forward
+Moving forward
 - can create paintings
 - can download and remix too
 - with vr can be meaingful interactive
 
-### Demo
+Demo
 
 http://billyroh.com/obliteration
 
-## Track A: CivicHacking.JS: Helping your Community using JavaScript
-### with Caroline Dikibo
+## Track A: CivicHacking.JS: Helping your Community using JavaScript with Caroline Dikibo
 
 Hackathons are great but don't provide usefulness
 - Apps should be opensource cities have same problems
@@ -91,30 +88,30 @@ How to start
 - amblyopia 
   - lazy eye
 
-### digital divide with people with disabilities
+digital divide with people with disabilities
 - pew research; disabled 3 times more likely not to go online
 
-### difficulty with getting a job
+difficulty with getting a job
 - took a year
 - couldn't get to work because can't drive in california
 - had to look for places with public transportation
 
-### pixel perfect
+pixel perfect
 - chrome extensions can set an image and lay on top of your website
 - compare final website to design
 - zoom tool in macbook to help with compare with pixel perfect extensions
 
-### Themes
+Themes
 - Created a "City Lights UI" theme in Atom
 - not created in vscode yet
 
-### Work issues with others
+Work issues with others
 - because of near-sightedness
 - would require others to change their settings
 - there is a better way!
 - vs live share / teletype
 
-### Resources
+Resources
 - Udacity has a great course on accessibility
 - created by google
 - couple chapters or couple of hours
@@ -122,25 +119,25 @@ How to start
 
 # Track B: No time for type by Nick Nisi
 
-### Learned perl - dynamic language
+Learned perl - dynamic language
 - run it without much setup
 - enjoyed flexibility
 
-### Javascript glue language
+Javascript glue language
 - not a real language when it started
 - Javascript would be used for e.g. portlets, etc.
 
-### "Always bet on javascript" - branden eich
+"Always bet on javascript" - branden eich
 - Language of the web 
 
-### Web assembly
+Web assembly
 - not replacing javascript
 
-### Js project characteristics
+Js project characteristics
 - larger
 - more people
 
-### risk mitigation
+risk mitigation
 - frameworks fill in the gaps
 - jquery: manipulation of dom
 - angular: module loading
@@ -335,3 +332,37 @@ npm is for the web
 
 web will remain under construction
 - always half broken
+
+# Track B: What's in your JS? with Ravi Lachhman
+
+transaction handling delegated to database
+
+javaland threads
+- threads
+- thread pool
+- incoming requests get pool gets larger
+
+in javascript it's equivalent is promises
+- succeed or fail a single time
+
+CNFCF jaeger 
+- uber
+- built in java initially
+- limiting factor unable to get trace information from application
+- can implment into your node client when interacting with traps
+- hope to get user data was tremendous
+
+dependency hell
+- might load differently on different machines
+- transitive dependency hard to debug
+
+practice npm hygiene
+
+profiling is important now
+- figure out what is being used where
+
+OWASP has dependency checker
+CVE - common vulnerability 
+- score and metric how many users impacted for vunerabilities
+- getting github may let you know
+

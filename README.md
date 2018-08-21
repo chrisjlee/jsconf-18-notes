@@ -1,6 +1,7 @@
-# jsconf-18-notes
+# JSConf '18 Notes
 
-## Track A: Billy Roh
+## Track A: Learning through Art: An Introduction to VR
+### with Billy Roh
 
 Take inspiration from art specifically the [obliteration room](https://play.qagoma.qld.gov.au/looknowseeforever/works/obliteration_room/)
 
@@ -48,4 +49,27 @@ Each of the stickers land ackwardly because the physics engine assumes its a box
 - can download and remix too
 - with vr can be meaingful interactive
 
+## Demo
+
 http://billyroh.com/obliteration
+
+## Track A: CivicHacking.JS: Helping your Community using JavaScript
+### with Caroline Dikibo
+
+Hackathons are great but don't provide usefulness
+- Apps should be opensource cities have same problems
+
+Learned react through mentorship
+
+## Problems with Civic hacking
+- Getting access to goverment officials to build apps is difficult
+- Gov't officials are hard to get a hold of
+
+## CivicHacking
+- Doesn't pay
+- Seeked grants for options
+- Grant money as option
+- Grant money takes a lot of time
+
+
+

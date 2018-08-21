@@ -459,3 +459,35 @@ use cases
 worker dom changes
 - changes 18ms but things on main thread is reduced and improve performance
 - now can break barrier of 60 ms
+
+how does this work?
+
+main thread / worker thread
+- first thing happens runtime will create worker and load javascript worker
+- worker dom works in main thread
+
+need way to transmit between threads so minimize class types
+- div can be represented as NodeType.ELEMENT_NODE
+- once it's been transferred small info needed after the second time
+- create hydratedNode type to transfer between nodes
+
+what we learned 
+- given same complexity of webworkers
+
+Process to move between threads
+- use sub cypher to node name
+- use static keys to convert object structure to keys and index of strings
+- create string pool for all parts that hasn't been recieved on both sides of threads
+- represent it in succint way
+- able to use integer representation of dom
+- for now is very efficient
+
+mutation
+- must be able to respond to input events
+
+mutationObserver
+- can create own mutationObserver
+- we can observe things like value changes
+
+
+

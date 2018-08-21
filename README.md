@@ -2,14 +2,18 @@
 
 ## Track A: Billy Roh
 
+Take inspiration from art specifically the [obliteration room](https://play.qagoma.qld.gov.au/looknowseeforever/works/obliteration_room/)
+
 Poly [poly.google.com](poly.google.com)
 
-a-frame creates asset management system
+a-frame has a asset management system
 create id for each item
 
 ## A-Frame
 - Mozilla framework
 - uses semantic syntax
+- <a-entity> is a generic container
+- can create games
 
 ## Lighting
 
@@ -26,3 +30,22 @@ Using a single light will turn off other lights
 - 3 light sources -> 30fps
 
 Create stickers to add to scene
+
+## Physics engine
+A frame provides engine to 
+- Bodies
+  - Dynamic body can move
+  - static body will be stick
+
+## collision event listeners
+- can turn them into a static body after it is collide with object
+
+Each of the stickers land ackwardly because the physics engine assumes its a box
+- for optimization it's a box
+
+## moving forward
+- can create paintings
+- can download and remix too
+- with vr can be meaingful interactive
+
+http://billyroh.com/obliteration

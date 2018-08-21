@@ -366,3 +366,96 @@ CVE - common vulnerability
 - score and metric how many users impacted for vunerabilities
 - getting github may let you know
 
+
+# Track A: JS, Concurrency in the dom
+
+browsers have single thread
+- the main thread
+- javascript runs on main thread by default
+- browser cannot do anything else at the same time
+- must achieve 60FPS
+
+60FPS
+- standard for being performant
+- human can recognize differences in framerate
+- movies run at 20fps
+
+break into 8/16 ms
+- what happens in 8ms?
+- click event then need to process this event
+use process
+- event process
+- determine new state
+- do state change processing
+
+issue DOM updates
+- what happens when we don't push it out and becomes 10ms
+
+what does this mean to end user?
+- means past frame budget
+- this is called jank
+
+mobile devices
+- performance isn't equal on every device
+
+brand new device by price segments
+- 15/75 percentile
+- A series processes perform past moores law
+- creates a different problem
+- devices are not close to reality
+
+this performance gap hurts userrs
+
+multicore performances over time
+- nokia 2 is a popular phone for 80 bucks and selling well
+
+impact?
+Ares6 test 
+- does babel transpilation
+- bad test
+- but should introduce runtime capabilities
+- entirely single-core focused
+
+Ares6 Test output
+- iphonex 23.35 seconds
+- nokia 2 438.67ms
+
+new api web workers
+- 2009
+- in every browser you care about
+- a way to write multi-threaded javascript
+- share no state
+- no access to the dom
+
+myths
+- dangerous
+
+Cloony
+- await response and spawns new webwork
+
+new ES 
+- jsblucks umlot over o
+- block defining here can run in any thread
+- up to browser runtime to allow to run
+- introduces new problem
+  - issue with lexical scope
+  - proposal introduces 
+  
+stockroom
+- use redux in seperate thread
+
+WorkerDOM
+- expose dom api to webworker
+
+original requirements
+- can make react work with webworker
+- support whole variety of programming
+- works with some issues
+
+use cases
+- framework authors improve existing app
+- run with webworker to improve performance
+
+worker dom changes
+- changes 18ms but things on main thread is reduced and improve performance
+- now can break barrier of 60 ms

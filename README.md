@@ -10,13 +10,13 @@ Poly [poly.google.com](poly.google.com)
 a-frame has a asset management system
 create id for each item
 
-## A-Frame
+### A-Frame
 - Mozilla framework
 - uses semantic syntax
 - <a-entity> is a generic container
 - can create games
 
-## Lighting
+### Lighting
 
 - Spotlight
 - Directional (like the sun)
@@ -38,18 +38,18 @@ A frame provides engine to
   - Dynamic body can move
   - static body will be stick
 
-## collision event listeners
+### collision event listeners
 - can turn them into a static body after it is collide with object
 
 Each of the stickers land ackwardly because the physics engine assumes its a box
 - for optimization it's a box
 
-## moving forward
+### moving forward
 - can create paintings
 - can download and remix too
 - with vr can be meaingful interactive
 
-## Demo
+### Demo
 
 http://billyroh.com/obliteration
 
@@ -61,21 +61,21 @@ Hackathons are great but don't provide usefulness
 
 Learned react through mentorship
 
-## Problems with Civic hacking
+### Problems with Civic hacking
 - Getting access to goverment officials to build apps is difficult
 - Gov't officials are hard to get a hold of
 
-## CivicHacking
+### CivicHacking
 - Doesn't pay
 - Seeked grants for options
 - Grant money as option
 - Grant money takes a lot of time
 
-## Resources
+### Resources
 - Users might only have phones
 - Must consider audience some 
 
-## How to start
+### How to start
 - Join a local brigade
 - Convince your workplace
 
@@ -92,36 +92,78 @@ Learned react through mentorship
 - amblyopia 
   - lazy eye
 
-## digital divide with people with disabilities
+### digital divide with people with disabilities
 - pew research; disabled 3 times more likely not to go online
 
-## difficulty with getting a job
+### difficulty with getting a job
 - took a year
 - couldn't get to work because can't drive in california
 - had to look for places with public transportation
 
-## pixel perfect
+### pixel perfect
 - chrome extensions can set an image and lay on top of your website
 - compare final website to design
 - zoom tool in macbook to help with compare with pixel perfect extensions
 
-## Themes
+### Themes
 - Created a "City Lights UI" theme in Atom
 - not created in vscode yet
 
-## Work issues with others
+### Work issues with others
 - because of near-sightedness
 - would require others to change their settings
 - there is a better way!
 - vs live share / teletype
 
-## Resources
+### Resources
 - Udacity has a great course on accessibility
 - created by google
 - couple chapters or couple of hours
 
 
+# Track B: No time for type by Nick Nisi
 
+### Learned perl - dynamic language
+- run it without much setup
+- enjoyed flexibility
 
+### Javascript glue language
+- not a real language when it started
+- Javascript would be used for e.g. portlets, etc.
 
+### "Always bet on javascript" - branden eich
+- Language of the web 
 
+### Web assembly
+- not replacing javascript
+
+### Js project characteristics
+- larger
+- more people
+
+### risk mitigation
+- frameworks fill in the gaps
+- jquery: manipulation of dom
+- angular: module loading
+
+### Typescript
+- layer to add give us statically type advantages
+- strict superset of the language
+- extending it with types on top of it: e.g. coffeescript
+
+### best part of typescript
+- don't need to switch to typescript
+- can use //@ts-check to check typescript
+- add a jsconfig.json file to project
+- can annotate types in parameters
+- otherwise, infer the default type
+- increment slowly and allow ts and js to coexist
+  - reduces barrier to conversion
+
+### interfaces
+- can enforce types passed in
+- normally they are in documentation but can be enforced
+  
+### Subvert type system
+- can create aliases; can use any type
+- can slowly replace that interface

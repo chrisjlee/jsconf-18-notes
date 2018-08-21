@@ -489,5 +489,7 @@ mutationObserver
 - can create own mutationObserver
 - we can observe things like value changes
 
+motivation
+- allow amp documents to run in their own js
 
 

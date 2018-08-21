@@ -80,5 +80,28 @@ Learned react through mentorship
 - Convince your workplace
 
 
+# Track A: I See: Overcoming Challenges in Software Development
+## Kevin oneil
+
+@__kev__oneill on twitter
+
+- born with nystagmus
+- born with myopia or nearsightness
+- vision condition which makes eyes with uncontrolled movements
+- eye will move to random directions
+- amblyopia 
+  - lazy eye
+
+## digital divide with people with disabilities
+- pew research; disabled 3 times more likely not to go online
+
+## difficulty with getting a job
+- took a year
+- couldn't get to work because can't drive in california
+- had to look for places with public transportation
+
+
+
+
 
 

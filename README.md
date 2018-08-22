@@ -492,4 +492,5 @@ mutationObserver
 motivation
 - allow amp documents to run in their own js
 
+# Track B: A new way to align programming paradigms across client & serverless by Jeff Hoffer
 
